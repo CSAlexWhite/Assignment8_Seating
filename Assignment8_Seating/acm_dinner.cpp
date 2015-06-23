@@ -122,11 +122,6 @@ int get_sex(int member)
 	return member % 2;
 }
 
-int unit_test()
-{
-	return 0;
-}
-
 void arrange(int num_teams)
 {
 	total_successes = 0;
@@ -156,11 +151,9 @@ void arrange(int num_teams)
 int main()
 {
 
-	for(int i = 1; i<8; i++){
+	for(int i = 1; i<10; i++){
 
 		cout << i << " teams" << endl;
 		arrange(i);
 	}
-		
-	system("pause");
 }
